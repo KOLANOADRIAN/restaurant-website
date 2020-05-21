@@ -28,7 +28,7 @@
     margin-left: 30px;
 }
 
-@media (max-width: 1100px;) {
+@media (max-width: 767px) {
     .about-us_image {
         display: none;
     }
