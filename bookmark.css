@@ -14,16 +14,16 @@
     }
 }
 .bookmark--menu {
-    background-image: url(/bookmarks/menu.jpg);
+    background-image: url(/menu.jpg);
 }
 .bookmark--Galeria {
-    background-image: url(/bookmarks/gallery.jpg);
+    background-image: url(/gallery.jpg);
 }
 .bookmark--Kontakt {
-    background-image: url(/bookmarks/contact.jpg);
+    background-image: url(/contact.jpg);
 }
 .bookmark--Jak_dojechać {
-    background-image: url(/bookmarks/route.jpg);
+    background-image: url(/route.jpg);
 }
 
 .bookmark::after {
