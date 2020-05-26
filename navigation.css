@@ -8,11 +8,7 @@
     z-index: 1;
 
 }
-@media (max-width: 767px) {
-    .main-navigation {
-        
-    }
-}
+
 .main-navigation_inner {
     display: flex;
     align-items: center;
@@ -27,15 +23,6 @@
     }
 }
 
-.main-navigation_logo {
-    
-    
-}
-@media (max-width: 767px) {
-    .main-navigation_logo {
-        
-    }
-}
 .main-navigation_logo-link {
     text-decoration: none;
     color: white;

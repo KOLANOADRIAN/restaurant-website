@@ -1,5 +1,5 @@
 .main_banner {
-    background-image: url(./banner.jpg);
+    background-image: url(./banner.jpg); /*główny baner*/
     height: 100vh;
     background-position: center center;
     background-size: cover;
