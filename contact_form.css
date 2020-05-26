@@ -1,0 +1,126 @@
+.contact-form {
+    background-color: rgb(48, 54, 54);
+    color: white;
+}
+
+@media (max-width: px) {
+    .contact-form {}
+}
+
+.contact-form_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+    .contact-form_info {
+        flex-wrap: wrap;
+    }
+}
+
+.contact-form_info-item {
+    display: flex;
+    align-items: center;
+    margin: 5px 30px;
+}
+
+@media (max-width: px) {
+    .contact-form_info-item {}
+}
+
+.contact-form_info-icon {
+    margin-right: 15px;
+    height: 25px;
+}
+
+@media (max-width: px) {
+    .contact-form_info-icon {}
+}
+
+.contact-form_info-link {
+    color: #eee;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+@media (max-width: 767px) {
+    .contact-form_info-link {
+        font-size: 16px;
+    }
+}
+
+.contact-form_header {
+    text-align: center;
+    margin: 0 0 50px 0;
+    color: #eee;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+@media (max-width: 767px) {
+    .contact-form_header {
+        font-size: 16px;
+    }
+}
+
+.contact-form_fields {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -8px;
+    /*trik withcontact-form_field {
+        width: calc(50% - 16px);
+        margin: 8px; >>dalej>>.contact-form_field--full_row {
+    width: calc(100% - 16px);
+}  */
+}
+
+@media (max-width: 767px) {
+    .contact-form_fields {}
+}
+
+.contact-form_field {
+    width: calc(50% - 16px);
+    margin: 8px;
+    background: transparent;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    padding: 12px;
+}
+
+.contact-form_field--full_row {
+    width: calc(100% - 16px);
+}
+
+.contact-form_field::placeholder {
+    color: #ade;
+    text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    .contact-form_field {
+        width: calc(100% - 16px);
+    }
+}
+
+.contact-form_submit-button {
+    display: block;
+    margin: 30px auto 0 auto;
+    border: none;
+    background: white;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form_submit-button:hover {
+    background-color: #ccc;
+}
+
+@media (max-width: px) {
+    .contact-form_submit-button {}
+}
