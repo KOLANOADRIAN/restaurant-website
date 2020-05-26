@@ -1,0 +1,19 @@
+.social_icon {
+    width: 16px;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.footer_link {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+   
+}
